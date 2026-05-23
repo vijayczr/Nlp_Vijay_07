@@ -1,0 +1,199 @@
+🟦 SLIDE 1 — Title
+Title:
+
+Thematic Alignment Analysis of Journal Articles
+
+Subtitle:
+Using NLP Embeddings and Topic Analysis
+Your Name
+Course Name
+🟦 SLIDE 2 — Problem Statement
+Title:
+
+Problem Statement
+
+Content:
+Journals define a thematic scope
+But do published papers always align with it?
+We aim to measure how well articles match journal focus
+🟦 SLIDE 3 — Objectives
+Title:
+
+Objectives
+
+Compute thematic alignment of papers
+Analyze trends over time
+Identify outliers
+Explore topic distribution
+🟦 SLIDE 4 — Data Source
+Title:
+
+Data Collection
+
+Source: Semantic Scholar API
+Journal: TACL
+Data: abstracts, titles, year
+🟦 SLIDE 5 — Method Overview (VERY IMPORTANT)
+Title:
+
+Methodology Overview
+
+Convert text → embeddings
+Compare article vs journal scope
+Use cosine similarity
+Score represents alignment
+🟦 SLIDE 6 — Model Selection (🔥 important)
+Title:
+
+Model Selection
+
+Model: Sentence-BERT (MiniLM)
+Captures semantic meaning
+Strong performance in similarity tasks
+Ensures consistent analysis
+
+🎤 Say:
+
+We focused on analysis rather than comparing models.
+
+🟦 SLIDE 7 — Alignment Score Meaning
+Title:
+
+What Does Alignment Score Mean?
+
+High → strongly matches journal scope
+Medium → partially relevant
+Low → weak alignment / outlier
+🟦 SLIDE 8 — Distribution
+Title:
+
+Alignment Score Distribution
+
+👉 Insert histogram
+
+🎤 Say:
+
+Most papers show moderate alignment, indicating overall consistency.
+
+🟦 SLIDE 9 — Yearly Trend
+Title:
+
+Alignment Over Time
+
+👉 Insert yearly trend graph
+
+🎤 Say:
+
+Alignment remains relatively stable with small variations across years.
+
+🟦 SLIDE 10 — Publications Per Year
+Title:
+
+Publication Volume
+
+👉 Insert bar chart
+
+🎤 Say:
+
+Number of papers increases over time, showing growth of the field.
+
+🟦 SLIDE 11 — Outliers
+Title:
+
+Outlier Analysis
+
+Some papers show low alignment
+Likely interdisciplinary or niche topics
+
+👉 optionally show 1–2 titles
+
+🟦 SLIDE 12 — Correlation
+Title:
+
+Statistical Relationships
+
+👉 Insert heatmap
+
+🎤 Say:
+
+Weak correlation between number of papers and alignment score.
+
+🟦 SLIDE 13 — Semantic Visualization (🔥 strong slide)
+Title:
+
+Semantic Distribution of Papers
+
+👉 Insert PCA plot
+
+🎤 Say:
+
+Most papers form a dense cluster → strong thematic consistency.
+
+🟦 SLIDE 14 — Topic Analysis (Phase 2 intro)
+Title:
+
+Topic Extraction
+
+Extracted topics using TF-IDF
+Grouped into meaningful categories
+🟦 SLIDE 15 — Topic Distribution
+Title:
+
+Topic Distribution
+
+👉 Insert clean topic bar chart
+
+🎤 Say:
+
+NLP Core dominates, followed by language models and ML.
+
+🟦 SLIDE 16 — Topic vs Alignment
+Title:
+
+Alignment by Topic
+
+👉 Insert chart
+
+🎤 Say:
+
+Core NLP topics align highest, evaluation lowest.
+
+🟦 SLIDE 17 — Topic Trends
+Title:
+
+Topic Evolution Over Time
+
+👉 Insert trend graph
+
+🎤 Say:
+
+Language models and ML increase in recent years.
+
+🟦 SLIDE 18 — Key Insights (🔥 IMPORTANT)
+Title:
+
+Key Findings
+
+Journal shows strong thematic consistency
+Core NLP topics dominate
+Alignment stable across years
+Emerging focus on language models
+🟦 SLIDE 19 — Limitations
+Title:
+
+Limitations
+
+Based on abstract-level analysis
+Embeddings capture semantic similarity only
+🟦 SLIDE 20 — Conclusion
+Title:
+
+Conclusion
+
+NLP embeddings effectively measure alignment
+Journal maintains consistent thematic focus
+Topic analysis reveals evolving research trends
+🟦 SLIDE 21 — Thank You
+Title:
+
+Thank You
